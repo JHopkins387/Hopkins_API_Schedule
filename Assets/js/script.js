@@ -9,7 +9,6 @@ $(".saveBtn").on("click", function () {
 })
 
 $(document).ready(function () {
-
     $("#9").val(localStorage.getItem("hours9"));
     $("#10").val(localStorage.getItem("hours10"));
     $("#11").val(localStorage.getItem("hours11"));
@@ -23,7 +22,6 @@ $(document).ready(function () {
 
 //functions tracks time
 let auditTime = function () {
-    //set variable what time of day it is
     let timeNow = moment().hours();
 
     $(".textarea").each(function () {
