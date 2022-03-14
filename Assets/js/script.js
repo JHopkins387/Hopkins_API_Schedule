@@ -21,7 +21,6 @@ $(document).ready(function () {
     $("#17").val(localStorage.getItem("hours5"));
 })
 
-
 //functions tracks time
 let auditTime = function () {
     //set variable what time of day it is
@@ -41,6 +40,5 @@ let auditTime = function () {
         }
     })
 }
-
 
 auditTime();

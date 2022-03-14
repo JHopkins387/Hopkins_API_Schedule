@@ -8,7 +8,7 @@
 A planner that keeps track of your progress and saves what you put in.
 
 ## Built Using
-CSS/HTML/JS
+CSS/HTML/JS/API
 
 ## Visit our Website
 
