@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Plan</h1>
+    <p class="lead">A app that helps you plan ahead.</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks go here -->
+
+    <div class="row time-block" id="hours9">
+      <div class="col-md">9am</div>
+      <textarea class="col-md-10 textarea" id="9"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours10">
+      <div class="col-md">10am</div>
+      <textarea class="col-md-10 textarea" id="10"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours11">
+      <div class="col-md">11am</div>
+      <textarea class="col-md-10 textarea" id="11"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours12">
+      <div class="col-md">12pm</div>
+      <textarea class="col-md-10 textarea" id="12"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours1">
+      <div class="col-md">1pm</div>
+      <textarea class="col-md-10 textarea" id="13"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours2">
+      <div class="col-md">2pm</div>
+      <textarea class="col-md-10 textarea" id="14"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours3">
+      <div class="col-md">3pm</div>
+      <textarea class="col-md-10 textarea" id="15"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours4">
+      <div class="col-md">4pm</div>
+      <textarea class="col-md-10 textarea" id="16"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <div class="row time-block" id="hours5">
+      <div class="col-md">5pm</div>
+      <textarea class="col-md-10 textarea" id="17"></textarea>
+      <button class="col-md saveBtn"><i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+
+  </div>
+
+
+</body>
+
+</html>
